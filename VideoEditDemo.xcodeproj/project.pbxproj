@@ -19,6 +19,23 @@
 		C6B7669F194A88DD00A3419F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B76687194A88DD00A3419F /* UIKit.framework */; };
 		C6B766A7194A88DD00A3419F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C6B766A5194A88DD00A3419F /* InfoPlist.strings */; };
 		C6B766A9194A88DD00A3419F /* VideoEditDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B766A8194A88DD00A3419F /* VideoEditDemoTests.m */; };
+		C6B766B4194A891000A3419F /* CCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B766B3194A891000A3419F /* CCViewController.m */; };
+		C6B766B6194A8A1800A3419F /* Green.mov in Resources */ = {isa = PBXBuildFile; fileRef = C6B766B5194A8A1800A3419F /* Green.mov */; };
+		C6B766C8194A8A2000A3419F /* Exo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C6B766BA194A8A2000A3419F /* Exo-Medium.ttf */; };
+		C6B766C9194A8A2000A3419F /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = C6B766BB194A8A2000A3419F /* OFL.txt */; };
+		C6B766CA194A8A2000A3419F /* border@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B766BD194A8A2000A3419F /* border@2x.png */; };
+		C6B766CB194A8A2000A3419F /* pause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B766BE194A8A2000A3419F /* pause@2x.png */; };
+		C6B766CC194A8A2000A3419F /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B766BF194A8A2000A3419F /* play@2x.png */; };
+		C6B766CD194A8A2000A3419F /* slider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6B766C0194A8A2000A3419F /* slider@2x.png */; };
+		C6B766CE194A8A2000A3419F /* JSRenderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B766C3194A8A2000A3419F /* JSRenderOperation.m */; };
+		C6B766CF194A8A2000A3419F /* JSVideoScrubber.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B766C5194A8A2000A3419F /* JSVideoScrubber.m */; };
+		C6B766D0194A8A2000A3419F /* UIImage+JSScrubber.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B766C7194A8A2000A3419F /* UIImage+JSScrubber.m */; };
+		C6B766D2194A8AA200A3419F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B766D1194A8AA200A3419F /* AssetsLibrary.framework */; };
+		C6B766D4194A8AAA00A3419F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B766D3194A8AAA00A3419F /* AVFoundation.framework */; };
+		C6B766D6194A8ADB00A3419F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B766D5194A8ADB00A3419F /* QuartzCore.framework */; };
+		C6B766EA194AA16700A3419F /* 布谷鸟.caf in Resources */ = {isa = PBXBuildFile; fileRef = C6B766E9194AA16700A3419F /* 布谷鸟.caf */; };
+		C6B766EE194AC9F400A3419F /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B766ED194AC9F400A3419F /* MBProgressHUD.m */; };
+		C6B766F1194ACB7E00A3419F /* CommonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C6B766F0194ACB7E00A3419F /* CommonHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +65,30 @@
 		C6B766A4194A88DD00A3419F /* VideoEditDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoEditDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C6B766A6194A88DD00A3419F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C6B766A8194A88DD00A3419F /* VideoEditDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoEditDemoTests.m; sourceTree = "<group>"; };
+		C6B766B2194A891000A3419F /* CCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCViewController.h; sourceTree = "<group>"; };
+		C6B766B3194A891000A3419F /* CCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCViewController.m; sourceTree = "<group>"; };
+		C6B766B5194A8A1800A3419F /* Green.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = Green.mov; path = VideoEditDemo/Green.mov; sourceTree = "<group>"; };
+		C6B766BA194A8A2000A3419F /* Exo-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Exo-Medium.ttf"; sourceTree = "<group>"; };
+		C6B766BB194A8A2000A3419F /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		C6B766BD194A8A2000A3419F /* border@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "border@2x.png"; sourceTree = "<group>"; };
+		C6B766BE194A8A2000A3419F /* pause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause@2x.png"; sourceTree = "<group>"; };
+		C6B766BF194A8A2000A3419F /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		C6B766C0194A8A2000A3419F /* slider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slider@2x.png"; sourceTree = "<group>"; };
+		C6B766C1194A8A2000A3419F /* JSAssetDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSAssetDefines.h; sourceTree = "<group>"; };
+		C6B766C2194A8A2000A3419F /* JSRenderOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSRenderOperation.h; sourceTree = "<group>"; };
+		C6B766C3194A8A2000A3419F /* JSRenderOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSRenderOperation.m; sourceTree = "<group>"; };
+		C6B766C4194A8A2000A3419F /* JSVideoScrubber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSVideoScrubber.h; sourceTree = "<group>"; };
+		C6B766C5194A8A2000A3419F /* JSVideoScrubber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSVideoScrubber.m; sourceTree = "<group>"; };
+		C6B766C6194A8A2000A3419F /* UIImage+JSScrubber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JSScrubber.h"; sourceTree = "<group>"; };
+		C6B766C7194A8A2000A3419F /* UIImage+JSScrubber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JSScrubber.m"; sourceTree = "<group>"; };
+		C6B766D1194A8AA200A3419F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		C6B766D3194A8AAA00A3419F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C6B766D5194A8ADB00A3419F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C6B766E9194AA16700A3419F /* 布谷鸟.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "布谷鸟.caf"; path = "VideoEditDemo/布谷鸟.caf"; sourceTree = "<group>"; };
+		C6B766EC194AC9F400A3419F /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C6B766ED194AC9F400A3419F /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C6B766EF194ACB7E00A3419F /* CommonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHelper.h; sourceTree = "<group>"; };
+		C6B766F0194ACB7E00A3419F /* CommonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +96,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B766D6194A8ADB00A3419F /* QuartzCore.framework in Frameworks */,
+				C6B766D4194A8AAA00A3419F /* AVFoundation.framework in Frameworks */,
+				C6B766D2194A8AA200A3419F /* AssetsLibrary.framework in Frameworks */,
 				C6B76686194A88DD00A3419F /* CoreGraphics.framework in Frameworks */,
 				C6B76688194A88DD00A3419F /* UIKit.framework in Frameworks */,
 				C6B76684194A88DD00A3419F /* Foundation.framework in Frameworks */,
@@ -77,6 +121,14 @@
 		C6B76677194A88DD00A3419F = {
 			isa = PBXGroup;
 			children = (
+				C6B766EF194ACB7E00A3419F /* CommonHelper.h */,
+				C6B766F0194ACB7E00A3419F /* CommonHelper.m */,
+				C6B766EB194AC9F400A3419F /* MBProgressHUD */,
+				C6B766E9194AA16700A3419F /* 布谷鸟.caf */,
+				C6B766B7194A8A2000A3419F /* Scrubber */,
+				C6B766B5194A8A1800A3419F /* Green.mov */,
+				C6B766B2194A891000A3419F /* CCViewController.h */,
+				C6B766B3194A891000A3419F /* CCViewController.m */,
 				C6B76689194A88DD00A3419F /* VideoEditDemo */,
 				C6B766A2194A88DD00A3419F /* VideoEditDemoTests */,
 				C6B76682194A88DD00A3419F /* Frameworks */,
@@ -96,6 +148,9 @@
 		C6B76682194A88DD00A3419F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C6B766D5194A8ADB00A3419F /* QuartzCore.framework */,
+				C6B766D3194A8AAA00A3419F /* AVFoundation.framework */,
+				C6B766D1194A8AA200A3419F /* AssetsLibrary.framework */,
 				C6B76683194A88DD00A3419F /* Foundation.framework */,
 				C6B76685194A88DD00A3419F /* CoreGraphics.framework */,
 				C6B76687194A88DD00A3419F /* UIKit.framework */,
@@ -142,6 +197,59 @@
 				C6B766A5194A88DD00A3419F /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C6B766B7194A8A2000A3419F /* Scrubber */ = {
+			isa = PBXGroup;
+			children = (
+				C6B766B8194A8A2000A3419F /* Assets */,
+				C6B766C1194A8A2000A3419F /* JSAssetDefines.h */,
+				C6B766C2194A8A2000A3419F /* JSRenderOperation.h */,
+				C6B766C3194A8A2000A3419F /* JSRenderOperation.m */,
+				C6B766C4194A8A2000A3419F /* JSVideoScrubber.h */,
+				C6B766C5194A8A2000A3419F /* JSVideoScrubber.m */,
+				C6B766C6194A8A2000A3419F /* UIImage+JSScrubber.h */,
+				C6B766C7194A8A2000A3419F /* UIImage+JSScrubber.m */,
+			);
+			path = Scrubber;
+			sourceTree = "<group>";
+		};
+		C6B766B8194A8A2000A3419F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C6B766B9194A8A2000A3419F /* Fonts */,
+				C6B766BC194A8A2000A3419F /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C6B766B9194A8A2000A3419F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C6B766BA194A8A2000A3419F /* Exo-Medium.ttf */,
+				C6B766BB194A8A2000A3419F /* OFL.txt */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C6B766BC194A8A2000A3419F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C6B766BD194A8A2000A3419F /* border@2x.png */,
+				C6B766BE194A8A2000A3419F /* pause@2x.png */,
+				C6B766BF194A8A2000A3419F /* play@2x.png */,
+				C6B766C0194A8A2000A3419F /* slider@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C6B766EB194AC9F400A3419F /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C6B766EC194AC9F400A3419F /* MBProgressHUD.h */,
+				C6B766ED194AC9F400A3419F /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +328,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B766CA194A8A2000A3419F /* border@2x.png in Resources */,
+				C6B766C9194A8A2000A3419F /* OFL.txt in Resources */,
+				C6B766C8194A8A2000A3419F /* Exo-Medium.ttf in Resources */,
 				C6B7668E194A88DD00A3419F /* InfoPlist.strings in Resources */,
+				C6B766B6194A8A1800A3419F /* Green.mov in Resources */,
 				C6B76696194A88DD00A3419F /* Images.xcassets in Resources */,
+				C6B766CC194A8A2000A3419F /* play@2x.png in Resources */,
+				C6B766CB194A8A2000A3419F /* pause@2x.png in Resources */,
+				C6B766EA194AA16700A3419F /* 布谷鸟.caf in Resources */,
+				C6B766CD194A8A2000A3419F /* slider@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +356,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6B766CE194A8A2000A3419F /* JSRenderOperation.m in Sources */,
+				C6B766CF194A8A2000A3419F /* JSVideoScrubber.m in Sources */,
+				C6B766F1194ACB7E00A3419F /* CommonHelper.m in Sources */,
+				C6B766D0194A8A2000A3419F /* UIImage+JSScrubber.m in Sources */,
 				C6B76694194A88DD00A3419F /* CCAppDelegate.m in Sources */,
 				C6B76690194A88DD00A3419F /* main.m in Sources */,
+				C6B766B4194A891000A3419F /* CCViewController.m in Sources */,
+				C6B766EE194AC9F400A3419F /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +560,7 @@
 				C6B766AE194A88DD00A3419F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6B766AF194A88DD00A3419F /* Build configuration list for PBXNativeTarget "VideoEditDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +569,7 @@
 				C6B766B1194A88DD00A3419F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
